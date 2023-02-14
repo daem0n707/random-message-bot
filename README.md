@@ -14,7 +14,9 @@ Usage
 ===============
 Use the `.ping` command to check the bot's latency. 
 
-To select a random message or attachement from a channel, follow this command format: `.draw <channelID> <messageCount>` or  `.d <channelID> <messageCount>` 
+To select a random message or attachement from a channel, follow this command format: 
+
+`.draw <channelID> <messageCount>` or  `.d <channelID> <messageCount>` 
 
 Message count is the number of messages in the specified channel to be taken into consideration while drawing a random winner.
 
