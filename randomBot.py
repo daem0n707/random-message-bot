@@ -22,7 +22,7 @@ async def draw(ctx, id:int, number:int):
     url = f'https://discord.com/channels/{ctx.guild.id}/{id}/{selectedMessage.id}'
 
     embed = discord.Embed(colour=ctx.author.color) 
-    embed.add_field(name='WINNER DRAWN', value=f'Click [here]({url}) to view the photo\nCongratulations <@{selectedMessage.author.id}>!')
+    embed.add_field(name='WINNER DRAWN', value=f'Click [here]({url}) to view the message\nCongratulations <@{selectedMessage.author.id}>!')
     await ctx.send(embed=embed)
 @draw.error
 async def draw_error(ctx, error):
