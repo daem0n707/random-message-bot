@@ -12,11 +12,11 @@ Enable [message intent][intent] for your bot, and make sure you give it the `Sen
 
 Usage
 ===============
-Use the `.ping` command to check the bot's latency. 
+* Use the `.ping` command to check the bot's latency. 
 
-To select a random message or attachement from a channel, follow this command format: 
+* To select a random message or attachement from a channel, follow this command format: 
 
-`.draw <channelID> <messageCount>` or  `.d <channelID> <messageCount>` 
+  `.draw <channelID> <messageCount>` or  `.d <channelID> <messageCount>` 
 
 Message count is the number of messages in the specified channel to be taken into consideration while drawing a random winner.
 
